@@ -63,6 +63,26 @@ public class Test {
 		System.out.println("student name : " + s5.name);
 		System.out.println("student city : " + s5.city);
 		
+		Student s6 = new Student();
+		s6.id = 1007;
+		s6.name = "priya";
+		s6.city = "koregaon park";
+		
+		System.out.println();
+		System.out.println("student id : " + s6.id);
+		System.out.println("student name : " + s6.name);
+		System.out.println("student city : " + s6.city);
+		
+		Student s7 = new Student();
+		s7.id = 1008;
+		s7.name = "asia syeed";
+		s7.city = "koregaon park";
+		
+		System.out.println();
+		System.out.println("student id : " + s7.id);
+		System.out.println("student name : " + s7.name);
+		System.out.println("student city : " + s7.city);
+		
 	}
 
 }
