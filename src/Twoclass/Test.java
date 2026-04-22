@@ -17,6 +17,10 @@ public class Test {
 		String get = v.username("vishwa", "ingle",2003);
 		System.out.println("vishwa username : " + get);
 		
+		suyash s = new suyash();
+		String userem = s.user("suyash" , "dhajekar" , 1991);
+		System.out.println("suyash username : " + userem);
+		
 		
 		
 
