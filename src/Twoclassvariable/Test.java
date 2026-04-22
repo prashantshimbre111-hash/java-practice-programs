@@ -13,6 +13,8 @@ public class Test {
 		System.out.println("student name : " + s.name);
 		System.out.println("student city : " + s.city);
 		
+		
+		
 	}
 
 }
