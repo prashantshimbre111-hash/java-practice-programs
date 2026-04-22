@@ -92,6 +92,16 @@ public class Test {
 		System.out.println("student id : " + s8.id);
 		System.out.println("student name : " + s8.name);
 		System.out.println("student city : " + s8.city);
+		
+		Student s9 = new Student();
+		s9.id = 1010;
+		s9.name = "ananya";
+		s9.city = "koregaon park";
+		
+		System.out.println();
+		System.out.println("student id : " + s9.id);
+		System.out.println("student name : " + s9.name);
+		System.out.println("student city : " + s9.city);
 				
 		
 	}
