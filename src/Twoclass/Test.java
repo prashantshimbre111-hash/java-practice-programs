@@ -13,6 +13,11 @@ public class Test {
 		String getusername = r.generator("rohan", "shimbare", 2001);
 		System.out.println("rohan's username : " + getusername);
 		
+		vishwa v = new vishwa();
+		String get = v.username("vishwa", "ingle",2003);
+		System.out.println("vishwa username : " + get);
+		
+		
 		
 
 	}
