@@ -34,7 +34,7 @@ public class Test {
 		System.out.println("student city : " + s2.city);
 		
 		Student s3 = new Student();
-		s3.id = 1003;
+		s3.id = 1005;
 		s3.name = "payal";
 		s3.city = "delhi";
 		
@@ -43,6 +43,15 @@ public class Test {
 		System.out.println("student name : " + s3.name);
 		System.out.println("student city : " + s3.city);
 		
+		Student s4 = new Student();
+		s4.id = 1005;
+		s4.name = "samiksha";
+		s4.city = "motala";
+		
+		System.out.println();
+		System.out.println("student id : " + s4.id);
+		System.out.println("student name : " + s4.name);
+		System.out.println("student city : " + s4.city);
 	}
 
 }
