@@ -13,7 +13,15 @@ public class Test {
 		System.out.println("student name : " + s.name);
 		System.out.println("student city : " + s.city);
 		
+		Student s1 = new Student();
+		s1.id = 1002;
+		s1.name = "rohan";
+		s1.city = "sambhajinagar";
 		
+		System.out.println("");
+		System.out.println("student id : " + s1.id);
+		System.out.println("student name : " + s1.name);
+		System.out.println("student city : " + s1.city);
 		
 	}
 
