@@ -8,6 +8,12 @@ public class Test {
 		Username u = new Username();
 		String getuser = u.user("prashant" , "shimbare" , 1998);
 		System.out.println("username : " + getuser);
+		
+		rohan r = new rohan();
+		String getusername = r.generator("rohan", "shimbare", 2001);
+		System.out.println("rohan's username : " + getusername);
+		
+		
 
 	}
 
