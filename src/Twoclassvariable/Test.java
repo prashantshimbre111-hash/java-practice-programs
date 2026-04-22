@@ -23,6 +23,16 @@ public class Test {
 		System.out.println("student name : " + s1.name);
 		System.out.println("student city : " + s1.city);
 		
+		Student s2 = new Student();
+		s2.id = 1003;
+		s2.name = "nandkishor";
+		s2.city = "buldhana";
+		
+		System.out.println();
+		System.out.println("student id : " + s2.id);
+		System.out.println("student name : " + s2.name );
+		System.out.println("student city : " + s2.city);
+		
 	}
 
 }
