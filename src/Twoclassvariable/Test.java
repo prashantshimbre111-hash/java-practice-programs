@@ -103,6 +103,15 @@ public class Test {
 		System.out.println("student name : " + s9.name);
 		System.out.println("student city : " + s9.city);
 				
+		Student s10 = new Student();
+		s10.id = 1011;
+		s10.name = "revan varsha";
+		s10.city = "koregaon park";
+		
+		System.out.println();
+		System.out.println("student id : " + s10.id);
+		System.out.println("student name : " + s10.name);
+		System.out.println("student city : " + s10.city);
 		
 	}
 
