@@ -30,6 +30,10 @@ public class Test {
 		System.out.println();
 		System.out.println("username of priya is generated : " + userpriya);
 		
+		gura g = new gura();
+		String offid = g.id("guru", "patil", 1998);
+		System.out.println(" official id by using returntype parameterized method : " + offid);
+		
 		
 		
 
