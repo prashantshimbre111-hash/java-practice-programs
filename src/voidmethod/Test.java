@@ -2,8 +2,8 @@ package voidmethod;
 
 public class Test {
 	public static void main(String[] args) {
-		
-		add a = new add();
+
+		Arithematic a = new Arithematic();
 		a.calculation();
 	}
 
