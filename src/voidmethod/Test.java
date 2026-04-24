@@ -5,6 +5,9 @@ public class Test {
 
 		Arithematic a = new Arithematic();
 		a.calculation();
+		
+		calculation cc = new calculation();
+		cc.cal();
 	}
 
 }
