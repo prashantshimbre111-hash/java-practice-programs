@@ -123,6 +123,17 @@ public class Test {
 		System.out.println("student name : " + s11.name);
 		System.out.println("student city : " + s11.city);
 		
+		Student s12  = new Student();
+		s12.id = 1013;
+		s12.name = "komal ghadekar";
+		s12.city = "koregaon park";
+		
+		System.out.println("");
+		System.out.println("student id : " + s12.id);
+		System.out.println("student name : " + s12.name);
+		System.out.println("student city : " + s12.city);
+		
+		
 	}
 
 }
