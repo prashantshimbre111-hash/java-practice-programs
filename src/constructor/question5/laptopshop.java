@@ -6,3 +6,4 @@ public class laptopshop {
 
 			laptop.laptopname(name);
 }
+}
