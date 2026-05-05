@@ -2,8 +2,8 @@ package constructor.question6;
 
 public class chargerbrand {
 
-	public chargerbrand(String name) {
+	public chargerbrand() {
 		
-		charger.chargername(name);
+		charger.chargername("xiomi");
 	}
 }
