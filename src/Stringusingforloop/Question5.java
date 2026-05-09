@@ -7,19 +7,29 @@ public class Question5 {
 
 		String s = "maharaSHTRA";
 
-		int count = 0;
+		int uppercount = 0;
+		int lowercount = 0;
+		
 
 		for (int i = 0; i < s.length(); i++) {
 
 			char c = s.charAt(i);
 			if (Character.isUpperCase(c)) {
 
-				count++;
+				uppercount++;
 
+			}
+			if(Character.isLowerCase(c)) {
+				
+				lowercount++;
 			}
 
 		}
-		System.out.println(count);
-	}
+		System.out.println(uppercount);
+		System.out.println(lowercount);
+}}	
+	
+	
+	
 
-}
+
