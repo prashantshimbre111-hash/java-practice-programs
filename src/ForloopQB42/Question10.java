@@ -6,9 +6,9 @@ public class Question10 {
 		
 		int a = 12;
 		
-		for(int i = 0 ; i <= 10 ; i++) {
-			System.out.println(a + "*" + i + "=" + (i*a));
-		}
+//		for(int i = 0 ; i <= 10 ; i++) {
+//			System.out.println(a + "*" + i + "=" + (i*a));
+//		}
 	}
 
 }
