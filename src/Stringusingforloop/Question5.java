@@ -25,8 +25,8 @@ public class Question5 {
 			}
 
 		}
-		System.out.println(uppercount);
-		System.out.println(lowercount);
+		System.out.println("uppercount : " + uppercount);
+		System.out.println("lowercount : " + lowercount);
 }}	
 	
 	
