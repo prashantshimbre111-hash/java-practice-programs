@@ -9,6 +9,15 @@ public class Question10 {
 //		for(int i = 0 ; i <= 10 ; i++) {
 //			System.out.println(a + "*" + i + "=" + (i*a));
 //		}
+	
+	int i = 0 ;
+	while(i <= 10) {
+
+		System.out.println(a + "*" + i + "=" + (a*i));
+	
+	
+	
+	i++;
 	}
 
-}
+	}}
