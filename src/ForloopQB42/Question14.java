@@ -2,7 +2,7 @@ package ForloopQB42;
 
 import java.util.Scanner;
 
-public class Question {
+public class Question14 {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
