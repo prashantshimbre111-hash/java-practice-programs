@@ -4,7 +4,7 @@ public class Question1 {
 
 	public static void main(String[] args) {
 		
-		String st = "aeiou";
+		String st = "prashantnandkishorshimbare";
 		
 		int count = 0;
 		

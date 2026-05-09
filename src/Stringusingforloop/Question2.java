@@ -12,9 +12,11 @@ public class Question2 {
 			
 			char c = str.charAt(i);
 			
-			if(c!='a' && c!='e' && c!='i' && c!='o' && c!='u' ) {
+			if(c>='a' && c<='z' && c!='a' && c!='e' && c!='i' && c!='o' && c!='u' ) {
 				
-				c++;
+				
+			
+				count++;
 			}
 		}
 		System.out.println(count);
