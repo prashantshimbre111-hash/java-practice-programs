@@ -6,17 +6,22 @@ public class Question10 {
 	
 	public static void main(String[] args) {
 		
+//		. Print the first n even numbers.
+
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("pleasee enter natural number : ");
+		System.out.println("please enter number : ");
 		int n = sc.nextInt();
 		
 		int i = 1;
 		while(i <= n) {
-			System.out.println(i);
+			
+			if(i % 2 == 0) {
+				
+				System.out.println(i);
+			}
 			i++;
 		}
-				
 	}
 
 }
