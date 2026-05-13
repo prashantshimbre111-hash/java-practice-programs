@@ -13,12 +13,13 @@ public class Question14 {
 		
 		int count = 0;
 		
-		int i = 0;
+		int i = 1;
 		while(number>0) {
 			
 		
-			number = number/10;
+			
 			count++;
+			number = number/10;
 			i++;
 			
 		}
