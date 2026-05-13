@@ -1,4 +1,4 @@
-package Whileloop41QB;
+package WhileloopQB41;
 
 public class Question1 {
 	public static void main(String[] args) {
