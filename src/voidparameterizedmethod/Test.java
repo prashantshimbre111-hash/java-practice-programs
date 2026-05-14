@@ -9,5 +9,8 @@ public class Test {
 		
 		calculation c = new calculation();
 		c.sum(10, 11);
+		
+		sum s = new sum();
+		s.sum(5, 4);
 	}
 }
