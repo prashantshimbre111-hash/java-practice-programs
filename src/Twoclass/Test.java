@@ -34,6 +34,14 @@ public class Test {
 		String offid = g.id("guru", "patil", 1998);
 		System.out.println(" official id by using returntype parameterized method : " + offid);
 		
+		suraj ss = new suraj();
+		String name = ss.getuser("prashant", "patil", 1998);
+		System.out.println(name);
+		
+		
+		
+				
+		
 		
 		
 
