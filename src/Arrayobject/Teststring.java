@@ -19,18 +19,27 @@ public class Teststring {
 		f1.email = "rohanshimbre1768@gmail.com";
 		f1.mobile = 123232446;
 		
-		field[] studentinfo = {f , f1};
+		field f2 = new field();
+		f2.id = 103;
+		f2.fname = "jack";
+		f2.lname = "ryan";
+		f2.education = "iot engineer";
+		f2.email = "jackryan11@gmail.com";
+		f2.mobile = 1232123;
+		
+		
+		field[] studentinfo = {f , f1 , f2};
 		
 		for(int i = 0 ; i < studentinfo.length ; i++) {
 			
 			field si = studentinfo[i];
 			System.out.println(" ");
-			System.out.println(si.id);
-			System.out.println(si.fname);
-			System.out.println(si.lname);
-			System.out.println(si.education);
-			System.out.println(si.email);
-			System.out.println(si.mobile);
+			System.out.println("id : " + si.id);
+			System.out.println("fname : " + si.fname);
+			System.out.println("lname : " + si.lname);
+			System.out.println("education : " + si.education);
+			System.out.println("email : " + si.email);
+			System.out.println("mobile : " +  si.mobile);
 		}
 				
 		
