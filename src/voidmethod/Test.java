@@ -8,6 +8,9 @@ public class Test {
 		
 		calculation cc = new calculation();
 		cc.cal();
+		
+		voidcheck v = new voidcheck();
+		v.cal();
 	}
 
 }
