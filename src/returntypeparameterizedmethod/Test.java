@@ -12,6 +12,10 @@ public class Test {
 		int cal = A.sum(32, 43);
 		System.out.println("addition of p and q by using returntype parameterized method : " + cal);
 		
+		summission s = new summission();
+		int ok = s.returnn(44, 55);
+		System.out.println(ok);
+		
 		
 	}
 
