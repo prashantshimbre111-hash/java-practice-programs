@@ -1,6 +1,6 @@
-package Encapsulationgmail;
+package Encapsulation.gmail;
 
-public class TSet {public static void main(String[] args) {
+public class Test {public static void main(String[] args) {
 	
 
 	
