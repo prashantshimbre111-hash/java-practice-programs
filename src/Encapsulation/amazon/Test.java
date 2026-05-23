@@ -23,6 +23,17 @@ public class Test {
 		f.setPass("bedvhby23975");
 		String pass = f.getPass();
 		System.out.println("pass : " + pass);
-	}
+		
+		Myntra m = new Myntra();
+		
+		m.setRollno(101);
+		int  roll= m.getRollno();
+		System.out.println(roll);
+		
+		m.setName("prashantshimbare");
+		String name = m.getName();
+		System.out.println(name);
+	}	
+	
 
 }
