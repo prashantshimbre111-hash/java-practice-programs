@@ -12,6 +12,17 @@ public class Test {
 		a.setPassword("pras1234");
 		String password = a.getPassword();
 		System.out.println("password : " + password);
+		
+		
+		flipkart f = new flipkart();
+		
+		f.setId("212332ddsd");
+		String i = f.getId();
+		System.out.println("id : "+ i);
+		
+		f.setPass("bedvhby23975");
+		String pass = f.getPass();
+		System.out.println("pass : " + pass);
 	}
 
 }
