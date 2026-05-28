@@ -33,7 +33,14 @@ public class Test {
 		m.setName("prashantshimbare");
 		String name = m.getName();
 		System.out.println(name);
-	}	
+		
+		snapdeal s = new snapdeal();
+		s.setUsername("freshmail@wtc.com");
+		s.setPass("1234567890kjhgf");
+		
+		System.out.println(s.getUsername());
+		System.out.println(s.getPass());
+	}
 	
 
 }
