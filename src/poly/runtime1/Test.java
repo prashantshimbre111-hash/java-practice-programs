@@ -3,6 +3,8 @@ package poly.runtime1;
 public class Test {
 	public static void main(String[] args) {
 		
+		
+		
 		bank b;
 		b = new sbi();
 		b.interest();
@@ -15,6 +17,7 @@ public class Test {
 		
 		b = new icici();
 		b.interest();
+		
 		
 		
 	}
