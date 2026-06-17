@@ -1,4 +1,4 @@
-package constructor.obcreation;
+package constructor.question2obcreation;
 
 public class cloths {
 	
