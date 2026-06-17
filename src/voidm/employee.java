@@ -2,6 +2,8 @@ package voidm;
 
 public class employee {
 	
+	public static int id = 221;
+	
 	public void getname() {
 		System.out.println("name : prashant shimbare");
 	}
