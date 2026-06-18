@@ -1,4 +1,4 @@
-package nestedifelse;
+package ifelse;
 
 public class licence {
 	
