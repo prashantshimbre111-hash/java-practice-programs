@@ -15,6 +15,7 @@ public class test {
 		System.out.println(s.contains(s));
 		System.out.println(s.contains("q"));
 		System.out.println(s.indexOf("t"));
+		System.out.println(s.isEmpty());
 		
 	}
 	
