@@ -6,6 +6,7 @@ public class Test {
 		
 		student s = new student();
 		s.timetable();
+		
 	}
 
 }
